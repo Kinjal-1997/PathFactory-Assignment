@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PathFactory Assignment Test Suite">
+
+	<listeners>
+		<listener class-name="pf.com.qa.ExtentReport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="PathFactory Assignment">
+		 <classes>
+			<class name="pf.com.qa.testcases.LoginPageTest"></class>
+			<class name="pf.com.qa.testcases.HomePageTest"></class>
+			<class name="pf.com.qa.testcases.ForgotpwdPageTest"></class>
+			
+		</classes> 
+	</test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PathFactory Assignment Test Suite]">
+  <listeners>
+    <listener class-name="pf.com.qa.ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="PathFactory Assignment(failed)">
+    <classes>
+      <class name="pf.com.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="hometitle"/>
+        </methods>
+      </class> <!-- pf.com.qa.testcases.HomePageTest -->
+      <class name="pf.com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="emailboxverifytest"/>
+          <include name="tearDown"/>
+          <include name="alertverify"/>
+          <include name="setUp"/>
+          <include name="loginTestwithEnterbtn"/>
+        </methods>
+      </class> <!-- pf.com.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- PathFactory Assignment(failed) -->
+</suite> <!-- Failed suite [PathFactory Assignment Test Suite] -->

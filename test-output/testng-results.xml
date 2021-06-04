@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68373" started-at="2021-06-03T21:22:59Z" finished-at="2021-06-03T21:24:08Z">
+  <suite name="Default suite" duration-ms="66549" started-at="2021-06-04T01:47:00Z" finished-at="2021-06-04T01:48:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68373" started-at="2021-06-03T21:22:59Z" finished-at="2021-06-03T21:24:08Z">
+    <test name="Default test" duration-ms="66549" started-at="2021-06-04T01:47:00Z" finished-at="2021-06-04T01:48:06Z">
       <class name="pf.com.qa.testcases.ForgotpwdPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="5553" started-at="2021-06-03T14:22:59Z" finished-at="2021-06-03T14:23:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="6112" started-at="2021-06-03T18:47:00Z" finished-at="2021-06-03T18:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="backbtnverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="backbtnverify" duration-ms="10129" started-at="2021-06-03T14:23:05Z" finished-at="2021-06-03T14:23:15Z">
+        <test-method status="FAIL" signature="backbtnverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="backbtnverify" duration-ms="10041" started-at="2021-06-03T18:47:06Z" finished-at="2021-06-03T18:47:16Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //span[contains(text(),'Back to Login')]
@@ -19,8 +19,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 41308, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a8f68ab-c087-4610-a3f4-dddd646dcea2
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 43936, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c7581d2-35b0-4f67-b4cc-d62f87081fac
 *** Element info: {Using=xpath, value=//span[contains(text(),'Back to Login')]}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 41308, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a8f68ab-c087-4610-a3f4-dddd646dcea2
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 43936, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c7581d2-35b0-4f67-b4cc-d62f87081fac
 *** Element info: {Using=xpath, value=//span[contains(text(),'Back to Login')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -46,18 +46,11 @@ Session ID: 7a8f68ab-c087-4610-a3f4-dddd646dcea2
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isEnabled(Unknown Source)
+	at com.sun.proxy.$Proxy9.isEnabled(Unknown Source)
 	at pf.com.qa.pages.ForgotpwdPage.backbtnenabled(ForgotpwdPage.java:47)
-	at pf.com.qa.testcases.ForgotpwdPageTest.backbtnverify(ForgotpwdPageTest.java:55)
+	at pf.com.qa.testcases.ForgotpwdPageTest.backbtnverify(ForgotpwdPageTest.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -89,27 +82,27 @@ Session ID: 7a8f68ab-c087-4610-a3f4-dddd646dcea2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backbtnverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="601" started-at="2021-06-03T14:23:15Z" finished-at="2021-06-03T14:23:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="597" started-at="2021-06-03T18:47:16Z" finished-at="2021-06-03T18:47:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="5370" started-at="2021-06-03T14:23:16Z" finished-at="2021-06-03T14:23:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4354" started-at="2021-06-03T18:47:16Z" finished-at="2021-06-03T18:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="emailboxverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="emailboxverify" duration-ms="70" started-at="2021-06-03T14:23:21Z" finished-at="2021-06-03T14:23:21Z">
+        <test-method status="PASS" signature="emailboxverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="emailboxverify" duration-ms="55" started-at="2021-06-03T18:47:21Z" finished-at="2021-06-03T18:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailboxverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="597" started-at="2021-06-03T14:23:21Z" finished-at="2021-06-03T14:23:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-06-03T18:47:21Z" finished-at="2021-06-03T18:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="5214" started-at="2021-06-03T14:23:22Z" finished-at="2021-06-03T14:23:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4274" started-at="2021-06-03T18:47:21Z" finished-at="2021-06-03T18:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="emailtextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="emailtextverify" duration-ms="10082" started-at="2021-06-03T14:23:27Z" finished-at="2021-06-03T14:23:37Z">
+        <test-method status="FAIL" signature="emailtextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="emailtextverify" duration-ms="10024" started-at="2021-06-03T18:47:26Z" finished-at="2021-06-03T18:47:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //p[contains(text(),'Please enter the email address you used to registe')]
@@ -117,8 +110,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 51648, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 71ee43a2-8e74-4353-9466-e7ad92559322
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 38400, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 930dbb81-0384-4c87-ba1c-d1f6a46d23d3
 *** Element info: {Using=xpath, value=//p[contains(text(),'Please enter the email address you used to registe')]}]]>
             </message>
             <full-stacktrace>
@@ -127,8 +120,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 51648, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 71ee43a2-8e74-4353-9466-e7ad92559322
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 38400, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 930dbb81-0384-4c87-ba1c-d1f6a46d23d3
 *** Element info: {Using=xpath, value=//p[contains(text(),'Please enter the email address you used to registe')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -144,16 +137,9 @@ Session ID: 71ee43a2-8e74-4353-9466-e7ad92559322
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
 	at pf.com.qa.pages.ForgotpwdPage.emaitext(ForgotpwdPage.java:38)
 	at pf.com.qa.testcases.ForgotpwdPageTest.emailtextverify(ForgotpwdPageTest.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -187,15 +173,15 @@ Session ID: 71ee43a2-8e74-4353-9466-e7ad92559322
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailtextverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="592" started-at="2021-06-03T14:23:37Z" finished-at="2021-06-03T14:23:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="628" started-at="2021-06-03T18:47:36Z" finished-at="2021-06-03T18:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="4621" started-at="2021-06-03T14:23:37Z" finished-at="2021-06-03T14:23:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4232" started-at="2021-06-03T18:47:36Z" finished-at="2021-06-03T18:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="forgotpwstextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="forgotpwstextverify" duration-ms="10091" started-at="2021-06-03T14:23:42Z" finished-at="2021-06-03T14:23:52Z">
+        <test-method status="FAIL" signature="forgotpwstextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="forgotpwstextverify" duration-ms="10031" started-at="2021-06-03T18:47:40Z" finished-at="2021-06-03T18:47:51Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //h1[@class='page-subheading']
@@ -203,8 +189,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3148, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b185c7b4-bf72-4c94-979a-3cac1f44330d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 48440, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b62424ed-94e7-43fd-96f3-54a8f9bfa508
 *** Element info: {Using=xpath, value=//h1[@class='page-subheading']}]]>
             </message>
             <full-stacktrace>
@@ -213,8 +199,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 3148, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b185c7b4-bf72-4c94-979a-3cac1f44330d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 48440, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b62424ed-94e7-43fd-96f3-54a8f9bfa508
 *** Element info: {Using=xpath, value=//h1[@class='page-subheading']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -230,16 +216,9 @@ Session ID: b185c7b4-bf72-4c94-979a-3cac1f44330d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
 	at pf.com.qa.pages.ForgotpwdPage.forgotpwdtext(ForgotpwdPage.java:35)
 	at pf.com.qa.testcases.ForgotpwdPageTest.forgotpwstextverify(ForgotpwdPageTest.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -273,15 +252,15 @@ Session ID: b185c7b4-bf72-4c94-979a-3cac1f44330d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotpwstextverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="594" started-at="2021-06-03T14:23:52Z" finished-at="2021-06-03T14:23:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="592" started-at="2021-06-03T18:47:51Z" finished-at="2021-06-03T18:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="4169" started-at="2021-06-03T14:23:53Z" finished-at="2021-06-03T14:23:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4400" started-at="2021-06-03T18:47:51Z" finished-at="2021-06-03T18:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="retrievebtnverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="retrievebtnverify" duration-ms="10101" started-at="2021-06-03T14:23:57Z" finished-at="2021-06-03T14:24:07Z">
+        <test-method status="FAIL" signature="retrievebtnverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="retrievebtnverify" duration-ms="10020" started-at="2021-06-03T18:47:56Z" finished-at="2021-06-03T18:48:06Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //span[contains(text(),'Retrieve Password')]
@@ -289,8 +268,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 52024, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a3b89ea-8113-49e2-9684-e754d627098e
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 52852, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 93166b44-df4f-480b-8e39-92cfe2785d98
 *** Element info: {Using=xpath, value=//span[contains(text(),'Retrieve Password')]}]]>
             </message>
             <full-stacktrace>
@@ -299,8 +278,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-8UTOJL72', ip: '192.168.0.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 52024, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7a3b89ea-8113-49e2-9684-e754d627098e
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 52852, moz:profile: C:\Users\kinja\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 93166b44-df4f-480b-8e39-92cfe2785d98
 *** Element info: {Using=xpath, value=//span[contains(text(),'Retrieve Password')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -316,18 +295,11 @@ Session ID: 7a3b89ea-8113-49e2-9684-e754d627098e
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.isEnabled(Unknown Source)
+	at com.sun.proxy.$Proxy9.isEnabled(Unknown Source)
 	at pf.com.qa.pages.ForgotpwdPage.retrivebtnenabled(ForgotpwdPage.java:44)
-	at pf.com.qa.testcases.ForgotpwdPageTest.retrievebtnverify(ForgotpwdPageTest.java:50)
+	at pf.com.qa.testcases.ForgotpwdPageTest.retrievebtnverify(ForgotpwdPageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -359,7 +331,7 @@ Session ID: 7a3b89ea-8113-49e2-9684-e754d627098e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retrievebtnverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="577" started-at="2021-06-03T14:24:07Z" finished-at="2021-06-03T14:24:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-06-03T18:48:06Z" finished-at="2021-06-03T18:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

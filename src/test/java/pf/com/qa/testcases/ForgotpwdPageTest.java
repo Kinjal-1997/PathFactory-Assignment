@@ -36,8 +36,7 @@ public class ForgotpwdPageTest extends TestBase {
 	@Test
 	public void emailtextverify() {
 		String text2 = fp.emaitext();
-		Assert.assertEquals(text2,
-				"Please enter the email address you used to register. We will then send you a new password.");
+		Assert.assertEquals(text2, "Please enter the email address you used to registe");
 	}
 
 	@Test

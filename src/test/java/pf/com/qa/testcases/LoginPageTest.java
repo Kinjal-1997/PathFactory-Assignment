@@ -37,7 +37,7 @@ public class LoginPageTest extends TestBase {
 
 	@Test
 	public void reglinktexttest() {
-		Assert.assertEquals(lp.reglinkText(), "Already registered?");
+		Assert.assertEquals(lp.reglinkText(), "ALREADY REGISTERED?");
 	}
 
 	@Test

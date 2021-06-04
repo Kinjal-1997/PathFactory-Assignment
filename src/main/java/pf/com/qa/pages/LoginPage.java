@@ -39,7 +39,6 @@ public class LoginPage extends TestBase {
 	WebElement alert;
 
 	public LoginPage() throws IOException {
-		super();
 		PageFactory.initElements(driver, this);
 	}
 	

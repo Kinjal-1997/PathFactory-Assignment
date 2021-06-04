@@ -3,16 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pf.com.qa.testcases.ForgotpwdPageTest">
+      <class name="pf.com.qa.testcases.LoginPageTest">
         <methods>
-          <include name="forgotpwstextverify"/>
-          <include name="setUp"/>
-          <include name="emailtextverify"/>
-          <include name="retrievebtnverify"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
-          <include name="backbtnverify"/>
+          <include name="alertverify"/>
+          <include name="setUp"/>
+          <include name="loginTestwithEnterbtn"/>
         </methods>
-      </class> <!-- pf.com.qa.testcases.ForgotpwdPageTest -->
+      </class> <!-- pf.com.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

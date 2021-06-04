@@ -22,7 +22,7 @@ public class TestUtil extends TestBase {
 	}
 	static Workbook book;
 	static Sheet sheet;
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\kinja\\OneDrive\\Desktop\\SeleniumWorkplace\\FreeCRMTestAutomation\\src\\test\\java\\NikulTest2.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\kinja\\OneDrive\\Desktop\\SeleniumWorkplace\\PathFactory\\src\\main\\java\\pf\\com\\qa\\testdata\\pathfactorylogin.xlsx";
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
 		FileInputStream file = null;
 		try {
@@ -47,11 +47,11 @@ public class TestUtil extends TestBase {
 		}
 		return data;
 	}
-	public static void takeScreenshotAtEndOfTest() throws IOException {
+	/*public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
-	}
+	}*/
 
 	public static long PAGE_LOAD_TIMEOUT= 20;
 	public static long IMPLICIT_WAIT = 10;

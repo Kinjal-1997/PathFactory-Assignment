@@ -27,7 +27,7 @@ public class ForgotpwdPageTest extends TestBase {
 		lp = new LoginPage();
 	}
 
-	@Test
+	//@Test
 	public void forgotpwstextverify() {
 		String text1 = fp.forgotpwdtext();
 		Assert.assertEquals(text1, "Forgot your password?");

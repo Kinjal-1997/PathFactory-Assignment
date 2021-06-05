@@ -24,7 +24,7 @@ public class HomePageTest extends TestBase {
 	public void setUp() throws IOException {
 		initialization();
 		lp = new LoginPage();
-		hp = lp.login(prop.getProperty("username"), prop.getProperty("password"));
+		hp = lp.login(prop.getProperty("usernamecorrect"), prop.getProperty("passwordcorrect"));
 	}
 
 	@Test

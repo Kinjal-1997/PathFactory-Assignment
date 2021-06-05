@@ -25,33 +25,19 @@ public class ForgotpwdPageTest extends TestBase {
 		initialization();
 		fp = new ForgotpwdPage();
 		lp = new LoginPage();
-	}
-
-	//@Test
-	public void forgotpwstextverify() {
-		String text1 = fp.forgotpwdtext();
-		Assert.assertEquals(text1, "Forgot your password?");
+		fp= lp.forgotpassword();
 	}
 
 	@Test
-	public void emailtextverify() {
-		String text2 = fp.emaitext();
-		Assert.assertEquals(text2, "Please enter the email address you used to registe");
+	public void forgotpwstextverify() {
+		String text1 = fp.forgotpwdtext();
+		Assert.assertEquals(text1, "FORGOT YOUR PASSWORD?");
 	}
 
 	@Test
 	public void emailboxverify() {
 		Assert.assertEquals(fp.emailboxPresent(), true);
-	}
-
-	@Test
-	public void retrievebtnverify() {
-		Assert.assertEquals(fp.retrivebtnenabled(), true);
-	}
-
-	@Test
-	public void backbtnverify() throws IOException {
-		lp = fp.backbtnenabled();
+	
 	}
 
 	@AfterMethod

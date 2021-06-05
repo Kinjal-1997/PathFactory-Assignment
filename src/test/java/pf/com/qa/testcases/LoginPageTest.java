@@ -2,25 +2,30 @@ package pf.com.qa.testcases;
 
 import java.io.IOException;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.WebElement;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import pf.com.qa.base.TestBase;
+import pf.com.qa.pages.ForgotpwdPage;
 import pf.com.qa.pages.HomePage;
 import pf.com.qa.pages.LoginPage;
-import pf.com.qa.util.TestUtil;
+import pf.com.qa.util.ExcelUtils;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.WebElement;
 
 public class LoginPageTest extends TestBase {
 	LoginPage lp;
 	HomePage hp;
-	String userCred;
-	String sheetName = "Sheet1";
-	String alert = "Authentication failed.";
+	ForgotpwdPage fp;
+	String forgotPwdText = "FORGOT YOUR PASSWORD?";
+	String error1 = "Invalid email address.";
+	String error2 = "Authentication failed.";
+	String error3 = "An email address required.";
+	String error4 = "Invalid password.";
 
 	public LoginPageTest() throws IOException {
 		super();
@@ -30,61 +35,114 @@ public class LoginPageTest extends TestBase {
 	public void setUp() throws IOException {
 		initialization();
 		lp = new LoginPage();
+		fp= new ForgotpwdPage();
 	}
-	public void logintitletest() {
+
+	 @Test
+	public void loginTitleTest() {
 		Assert.assertEquals(lp.verifyLoginpagetitle(), "Login - My Store");
 	}
 
-	@Test
-	public void reglinktexttest() {
+	 @Test
+	public void reglinkTextTest() {
 		Assert.assertEquals(lp.reglinkText(), "ALREADY REGISTERED?");
 	}
 
-	@Test
-	public void reglinkdispalyedtest() {
+	 @Test
+	public void reglinkDispalyedTest() {
 		Assert.assertEquals(lp.regLinkavailable(), true);
 	}
 
-	@Test
+	 @Test
 	public void emailboxverifytest() {
 		Assert.assertEquals(lp.emailboxcheck(), true);
 	}
 
-	@Test
-	public void pwdboxverifytest() {
+	 @Test
+	public void pwdboxVerifyTest() {
 		Assert.assertEquals(lp.pwdboxcheck(), true);
 	}
 
-	@DataProvider
-	public Object[][] getPfTestData() throws InvalidFormatException {
-		Object data[][] = TestUtil.getTestData(sheetName);
-		return data;
-
+	// @Test
+	public void loginSuccessfulTest() throws IOException {
+		hp = lp.login(prop.getProperty("usernamecorrect"), prop.getProperty("passwordcorrect"));
+		Assert.assertEquals(hp.verifyCorrectUserName(), true);
 	}
 
-	@Test(dataProvider = "getPfTestData")
-	public void loginTest(String username, String password) throws IOException {
-		hp = lp.login(username, password);
-	}
+	// @Test
 
-	@Test(dataProvider = "getPfTestData")
-	public void loginTestwithEnterbtn(String username, String password) throws IOException {
-		hp = lp.login(username, password);
+	public void loginWithEnterbtnTest() throws IOException {
+		hp = lp.loginwithEnter(prop.getProperty("usernamecorrect"), prop.getProperty("passwordcorrect"));
+		Assert.assertEquals(hp.verifyCorrectUserName(), true);
 	}
 
 	@Test
-	public void alertverify() {
-		Assert.assertEquals(lp.alermsg(), alert);
-
+	public void loginWithIncorrectData() {
+		lp.loginwithIncorrectData(prop.getProperty("wrongemail1"), prop.getProperty("wrongpwd1"));
+		Assert.assertEquals(lp.errorMsgVerify(), error2);
 	}
 
 	@Test
-	public void forgotpwdlinkTest() {
-		Assert.assertEquals(lp.verifyforgotpwdlink(), true);
+	public void wronEmailcorrectPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("wrongEmail2"), prop.getProperty("correctpwd1"));
+		Assert.assertEquals(lp.errorMsgVerify(), error2);
 	}
 
 	@Test
-	public void signinbtnenabletest() {
+	public void correctEmailwronPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("correctemail1"), prop.getProperty("wrongpwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(), error4);
+	}
+
+	@Test
+	public void emptyEmailcorrectPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("emptyemail"), prop.getProperty("correctpwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(),error1 );
+	}
+
+	@Test
+	public void emptyEmailwronPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("emptyemail2"), prop.getProperty("wrongpwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(), error1);
+	}
+
+	@Test
+	public void correctEmailemptyPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("correctemail2"), prop.getProperty("emptypwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(), error4);
+	}
+
+	@Test
+	public void wronEmailemtyPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("wrongemail2"), prop.getProperty("emptypwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(), error4);
+	}
+
+	@Test
+	public void invalidEmailcorrectPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("invalidemail1"), prop.getProperty("corectpwd2"));
+		Assert.assertEquals(lp.errorMsgVerify(), error1);
+	}
+
+	@Test
+	public void invalidEmailwronPwdTest() {
+		lp.loginwithIncorrectData(prop.getProperty("invalidemail2"), prop.getProperty("wronpwd3"));
+		Assert.assertEquals(lp.errorMsgVerify(), error1);
+	}
+	
+	@Test
+	public void verifyForgotPwdTest() {
+		lp.verifyforgotpwdlink();
+	}
+
+	 @Test
+	public void forgotpwdLinkTest() throws IOException {
+		fp= lp.forgotpassword();
+		Assert.assertEquals(fp.forgotpwdtext(), forgotPwdText);
+	}
+
+	 @Test
+	public void signinbtnEnableTest() {
 		Assert.assertEquals(lp.signinbtnenabled(), true);
 	}
 

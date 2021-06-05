@@ -1,8 +1,6 @@
 package pf.com.qa.pages;
 
 import java.io.IOException;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import pf.com.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
+	
+	
 	@FindBy(name = "email")
 	WebElement username;
 
@@ -36,16 +36,16 @@ public class LoginPage extends TestBase {
 	WebElement pwdbox;
 
 	@FindBy(xpath = "//div[@class='alert alert-danger']/ol/li")
-	WebElement alert;
+	WebElement errormsg;
 
 	public LoginPage() throws IOException {
 		PageFactory.initElements(driver, this);
 	}
-	
-	public String verifyLoginpagetitle(){
+
+	public String verifyLoginpagetitle() {
 		return driver.getTitle();
 	}
-	
+
 	public boolean regLinkavailable() {
 		return reglink.isDisplayed();
 	}
@@ -76,8 +76,62 @@ public class LoginPage extends TestBase {
 		return new HomePage();
 	}
 
-	public String alermsg() {
-		return alert.getText();
+	public void loginwithIncorrectData(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void wrongEmailcorrectPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void correctEmailwrongPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void emptyEmailcorrectPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void emptyEmailwronPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void correctEmaailemptyPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void wrongEmailemptyPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void invalidEmailcorrectPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public void InvalidemailWrongPwd(String us, String pwd) {
+		username.sendKeys(us);
+		password.sendKeys(pwd);
+		signinbtn.click();
+	}
+
+	public String errorMsgVerify() {
+		return errormsg.getText();
 
 	}
 
@@ -95,12 +149,4 @@ public class LoginPage extends TestBase {
 	}
 	
 	
-
-
-	
-	
-	
-	
-	
-
 }

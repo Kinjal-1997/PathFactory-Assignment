@@ -5,11 +5,9 @@
     <classes>
       <class name="pf.com.qa.testcases.LoginPageTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="loginWithIncorrectData"/>
           <include name="tearDown"/>
-          <include name="alertverify"/>
           <include name="setUp"/>
-          <include name="loginTestwithEnterbtn"/>
         </methods>
       </class> <!-- pf.com.qa.testcases.LoginPageTest -->
     </classes>

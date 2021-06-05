@@ -6,21 +6,15 @@
   </listeners>
   <test name="PathFactory Assignment(failed)">
     <classes>
-      <class name="pf.com.qa.testcases.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="hometitle"/>
-        </methods>
-      </class> <!-- pf.com.qa.testcases.HomePageTest -->
       <class name="pf.com.qa.testcases.LoginPageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="emailboxverifytest"/>
+          <include name="reglinkTextTest"/>
+          <include name="verifyForgotPwdTest"/>
+          <include name="wronEmailcorrectPwdTest"/>
+          <include name="signinbtnEnableTest"/>
           <include name="tearDown"/>
-          <include name="alertverify"/>
           <include name="setUp"/>
-          <include name="loginTestwithEnterbtn"/>
+          <include name="wronEmailemtyPwdTest"/>
         </methods>
       </class> <!-- pf.com.qa.testcases.LoginPageTest -->
     </classes>

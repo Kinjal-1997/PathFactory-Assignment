@@ -1,6 +1,6 @@
+pf\com\qa\util\ExcelUtils.class
 pf\com\qa\ExtentReport\ExtentReporterNG.class
 pf\com\qa\pages\HomePage.class
 pf\com\qa\base\TestBase.class
 pf\com\qa\pages\ForgotpwdPage.class
 pf\com\qa\pages\LoginPage.class
-pf\com\qa\util\TestUtil.class

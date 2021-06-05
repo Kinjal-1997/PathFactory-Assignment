@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25496" started-at="2021-06-05T03:20:43Z" finished-at="2021-06-05T03:21:09Z">
+  <suite name="Default suite" duration-ms="17304" started-at="2021-06-05T05:57:56Z" finished-at="2021-06-05T05:58:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25496" started-at="2021-06-05T03:20:43Z" finished-at="2021-06-05T03:21:09Z">
-      <class name="pf.com.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="setUp" is-config="true" duration-ms="7450" started-at="2021-06-04T20:20:43Z" finished-at="2021-06-04T20:20:51Z">
+    <test name="Default test" duration-ms="17304" started-at="2021-06-05T05:57:56Z" finished-at="2021-06-05T05:58:13Z">
+      <class name="pf.com.qa.testcases.ForgotpwdPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="9192" started-at="2021-06-04T22:57:56Z" finished-at="2021-06-04T22:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagetitle()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="homepagetitle" duration-ms="14" started-at="2021-06-04T20:20:51Z" finished-at="2021-06-04T20:20:51Z">
+        <test-method status="PASS" signature="emailboxverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="emailboxverify" duration-ms="94" started-at="2021-06-04T22:58:05Z" finished-at="2021-06-04T22:58:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepagetitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="576" started-at="2021-06-04T20:20:51Z" finished-at="2021-06-04T20:20:51Z">
+        </test-method> <!-- emailboxverify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="580" started-at="2021-06-04T22:58:05Z" finished-at="2021-06-04T22:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="setUp" is-config="true" duration-ms="8982" started-at="2021-06-04T20:20:51Z" finished-at="2021-06-04T20:21:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="6831" started-at="2021-06-04T22:58:06Z" finished-at="2021-06-04T22:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signoutbtntest()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="signoutbtntest" duration-ms="50" started-at="2021-06-04T20:21:00Z" finished-at="2021-06-04T20:21:01Z">
+        <test-method status="PASS" signature="forgotpwstextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="forgotpwstextverify" duration-ms="31" started-at="2021-06-04T22:58:13Z" finished-at="2021-06-04T22:58:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signoutbtntest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="568" started-at="2021-06-04T20:21:01Z" finished-at="2021-06-04T20:21:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="setUp" is-config="true" duration-ms="7232" started-at="2021-06-04T20:21:01Z" finished-at="2021-06-04T20:21:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifycorrectlogin()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="verifycorrectlogin" duration-ms="31" started-at="2021-06-04T20:21:08Z" finished-at="2021-06-04T20:21:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycorrectlogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.HomePageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="578" started-at="2021-06-04T20:21:08Z" finished-at="2021-06-04T20:21:09Z">
+        </test-method> <!-- forgotpwstextverify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="555" started-at="2021-06-04T22:58:13Z" finished-at="2021-06-04T22:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pf.com.qa.testcases.HomePageTest -->
+      </class> <!-- pf.com.qa.testcases.ForgotpwdPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

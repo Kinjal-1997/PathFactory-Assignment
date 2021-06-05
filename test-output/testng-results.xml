@@ -1,37 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17304" started-at="2021-06-05T05:57:56Z" finished-at="2021-06-05T05:58:13Z">
+  <suite name="Default suite" duration-ms="137880" started-at="2021-06-05T18:57:02Z" finished-at="2021-06-05T18:59:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17304" started-at="2021-06-05T05:57:56Z" finished-at="2021-06-05T05:58:13Z">
-      <class name="pf.com.qa.testcases.ForgotpwdPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="9192" started-at="2021-06-04T22:57:56Z" finished-at="2021-06-04T22:58:05Z">
+    <test name="Default test" duration-ms="137880" started-at="2021-06-05T18:57:02Z" finished-at="2021-06-05T18:59:20Z">
+      <class name="pf.com.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="6027" started-at="2021-06-05T11:57:02Z" finished-at="2021-06-05T11:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="emailboxverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="emailboxverify" duration-ms="94" started-at="2021-06-04T22:58:05Z" finished-at="2021-06-04T22:58:05Z">
+        <test-method status="PASS" signature="correctEmailemptyPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="correctEmailemptyPwdTest" duration-ms="2082" started-at="2021-06-05T11:57:08Z" finished-at="2021-06-05T11:57:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailboxverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="580" started-at="2021-06-04T22:58:05Z" finished-at="2021-06-04T22:58:06Z">
+        </test-method> <!-- correctEmailemptyPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="570" started-at="2021-06-05T11:57:10Z" finished-at="2021-06-05T11:57:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="6831" started-at="2021-06-04T22:58:06Z" finished-at="2021-06-04T22:58:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4549" started-at="2021-06-05T11:57:10Z" finished-at="2021-06-05T11:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotpwstextverify()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="forgotpwstextverify" duration-ms="31" started-at="2021-06-04T22:58:13Z" finished-at="2021-06-04T22:58:13Z">
+        <test-method status="PASS" signature="correctEmailwronPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="correctEmailwronPwdTest" duration-ms="2811" started-at="2021-06-05T11:57:15Z" finished-at="2021-06-05T11:57:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotpwstextverify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.ForgotpwdPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="555" started-at="2021-06-04T22:58:13Z" finished-at="2021-06-04T22:58:13Z">
+        </test-method> <!-- correctEmailwronPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="570" started-at="2021-06-05T11:57:18Z" finished-at="2021-06-05T11:57:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pf.com.qa.testcases.ForgotpwdPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4809" started-at="2021-06-05T11:57:18Z" finished-at="2021-06-05T11:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailboxverifytest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="emailboxverifytest" duration-ms="73" started-at="2021-06-05T11:57:23Z" finished-at="2021-06-05T11:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailboxverifytest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="552" started-at="2021-06-05T11:57:23Z" finished-at="2021-06-05T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="5521" started-at="2021-06-05T11:57:24Z" finished-at="2021-06-05T11:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyEmailcorrectPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="emptyEmailcorrectPwdTest" duration-ms="1028" started-at="2021-06-05T11:57:29Z" finished-at="2021-06-05T11:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailcorrectPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="560" started-at="2021-06-05T11:57:30Z" finished-at="2021-06-05T11:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4836" started-at="2021-06-05T11:57:31Z" finished-at="2021-06-05T11:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyEmailemptyPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="emptyEmailemptyPwdTest" duration-ms="877" started-at="2021-06-05T11:57:36Z" finished-at="2021-06-05T11:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailemptyPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="545" started-at="2021-06-05T11:57:37Z" finished-at="2021-06-05T11:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4301" started-at="2021-06-05T11:57:37Z" finished-at="2021-06-05T11:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyEmailwronPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="emptyEmailwronPwdTest" duration-ms="935" started-at="2021-06-05T11:57:41Z" finished-at="2021-06-05T11:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailwronPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="550" started-at="2021-06-05T11:57:42Z" finished-at="2021-06-05T11:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4405" started-at="2021-06-05T11:57:43Z" finished-at="2021-06-05T11:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpwdLinkTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="forgotpwdLinkTest" duration-ms="1242" started-at="2021-06-05T11:57:47Z" finished-at="2021-06-05T11:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpwdLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="554" started-at="2021-06-05T11:57:49Z" finished-at="2021-06-05T11:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="6237" started-at="2021-06-05T11:57:49Z" finished-at="2021-06-05T11:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidEmailcorrectPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="invalidEmailcorrectPwdTest" duration-ms="3640" started-at="2021-06-05T11:57:55Z" finished-at="2021-06-05T11:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailcorrectPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-06-05T11:57:59Z" finished-at="2021-06-05T11:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="7509" started-at="2021-06-05T11:58:00Z" finished-at="2021-06-05T11:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidEmailwronPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="invalidEmailwronPwdTest" duration-ms="2351" started-at="2021-06-05T11:58:07Z" finished-at="2021-06-05T11:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailwronPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="581" started-at="2021-06-05T11:58:10Z" finished-at="2021-06-05T11:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4799" started-at="2021-06-05T11:58:10Z" finished-at="2021-06-05T11:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSuccessfulTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="loginSuccessfulTest" duration-ms="2815" started-at="2021-06-05T11:58:15Z" finished-at="2021-06-05T11:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfulTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="569" started-at="2021-06-05T11:58:18Z" finished-at="2021-06-05T11:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="5219" started-at="2021-06-05T11:58:18Z" finished-at="2021-06-05T11:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTitleTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="loginTitleTest" duration-ms="8" started-at="2021-06-05T11:58:23Z" finished-at="2021-06-05T11:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="554" started-at="2021-06-05T11:58:23Z" finished-at="2021-06-05T11:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="5313" started-at="2021-06-05T11:58:24Z" finished-at="2021-06-05T11:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithEnterbtnTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="loginWithEnterbtnTest" duration-ms="1484" started-at="2021-06-05T11:58:29Z" finished-at="2021-06-05T11:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEnterbtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="580" started-at="2021-06-05T11:58:31Z" finished-at="2021-06-05T11:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4899" started-at="2021-06-05T11:58:31Z" finished-at="2021-06-05T11:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithIncorrectData()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="loginWithIncorrectData" duration-ms="1328" started-at="2021-06-05T11:58:36Z" finished-at="2021-06-05T11:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="559" started-at="2021-06-05T11:58:38Z" finished-at="2021-06-05T11:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4569" started-at="2021-06-05T11:58:38Z" finished-at="2021-06-05T11:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pwdboxVerifyTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="pwdboxVerifyTest" duration-ms="46" started-at="2021-06-05T11:58:43Z" finished-at="2021-06-05T11:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwdboxVerifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="534" started-at="2021-06-05T11:58:43Z" finished-at="2021-06-05T11:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4338" started-at="2021-06-05T11:58:43Z" finished-at="2021-06-05T11:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="reglinkDispalyedTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="reglinkDispalyedTest" duration-ms="48" started-at="2021-06-05T11:58:48Z" finished-at="2021-06-05T11:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reglinkDispalyedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="551" started-at="2021-06-05T11:58:48Z" finished-at="2021-06-05T11:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4290" started-at="2021-06-05T11:58:48Z" finished-at="2021-06-05T11:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="reglinkTextTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="reglinkTextTest" duration-ms="26" started-at="2021-06-05T11:58:53Z" finished-at="2021-06-05T11:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reglinkTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="543" started-at="2021-06-05T11:58:53Z" finished-at="2021-06-05T11:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4328" started-at="2021-06-05T11:58:53Z" finished-at="2021-06-05T11:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signinbtnEnableTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="signinbtnEnableTest" duration-ms="39" started-at="2021-06-05T11:58:57Z" finished-at="2021-06-05T11:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinbtnEnableTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="587" started-at="2021-06-05T11:58:58Z" finished-at="2021-06-05T11:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="5803" started-at="2021-06-05T11:58:58Z" finished-at="2021-06-05T11:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgotPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="verifyForgotPwdTest" duration-ms="70" started-at="2021-06-05T11:59:04Z" finished-at="2021-06-05T11:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="597" started-at="2021-06-05T11:59:04Z" finished-at="2021-06-05T11:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="5054" started-at="2021-06-05T11:59:05Z" finished-at="2021-06-05T11:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wronEmailcorrectPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="wronEmailcorrectPwdTest" duration-ms="1514" started-at="2021-06-05T11:59:10Z" finished-at="2021-06-05T11:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wronEmailcorrectPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="574" started-at="2021-06-05T11:59:11Z" finished-at="2021-06-05T11:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="setUp" is-config="true" duration-ms="4337" started-at="2021-06-05T11:59:12Z" finished-at="2021-06-05T11:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wronEmailemtyPwdTest()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="wronEmailemtyPwdTest" duration-ms="2934" started-at="2021-06-05T11:59:16Z" finished-at="2021-06-05T11:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wronEmailemtyPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pf.com.qa.testcases.LoginPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="585" started-at="2021-06-05T11:59:19Z" finished-at="2021-06-05T11:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pf.com.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

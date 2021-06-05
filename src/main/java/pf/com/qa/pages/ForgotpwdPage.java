@@ -18,9 +18,7 @@ WebElement emailbox;
 
 
 
-
-
-	public ForgotpwdPage() throws IOException {
+   public ForgotpwdPage() throws IOException {
 		super();
 		PageFactory.initElements(driver,this);
 			}
